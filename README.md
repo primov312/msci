@@ -6,10 +6,6 @@ This project provides a REST API service that generates a list of vulnerable ver
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
@@ -21,6 +17,11 @@ To set up this project locally, follow these steps:
    git clone https://github.com/primov312/msci.git
    cd msci
 2. install dependencies
-```bash
- pip install uvicorn httpx fastapi
-```
+   ```sh
+    pip install uvicorn httpx fastapi
+   ```
+##Usage
+To run the application, use the following command:
+
+   ```sh
+   python run.py
